@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:ignore="ExtraText"
+    android:background="#1c1c1c">
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_button"
+        android:text="Sign in using Google"
+        android:textSize="18sp"
+        android:drawableStart="@drawable/google_small"
+        android:drawablePadding="8dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="16dp"/>
+
+
+
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:textSize="14sp"
+        android:inputType="textEmailAddress"
+        android:padding="20dp"
+        android:drawableStart="@drawable/email_small"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+
+        android:id="@+id/passwordEditText"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:textSize="14sp"
+        android:drawableStart="@drawable/password_small"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:background="@drawable/rounded_edittext"
+         android:layout_marginTop="10dp"
+/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_button"
+        android:text="Login"
+        android:textSize="22sp"
+        android:backgroundTint="#4CAF50"
+        android:drawablePadding="8dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forget_password"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_marginTop="40dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip"
+        android:textColor="#fff"
+        android:textSize="28sp"
+        android:layout_marginTop="40dp"
+        />
+
+</LinearLayout>

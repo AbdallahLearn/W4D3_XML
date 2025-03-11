@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">W4D3_XML</string>
+
+    <string name="forget_password">or <font color="#547c99">Forget Password</font></string>
+
+    <string name="signup">don\'t have an account yet? <font color="#547c99">Sign Up</font></string>
+</resources>
