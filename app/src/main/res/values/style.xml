@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <dimen name = "text_width">100dp</dimen>
+<!--here how to use them in layout:
+ width="@style/text_width    -->
 </resources>

@@ -40,6 +40,7 @@
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:textSize="14sp"
+        android:drawableEnd="@drawable/eye_small"
         android:drawableStart="@drawable/password_small"
         android:inputType="textPassword"
         android:padding="20dp"
